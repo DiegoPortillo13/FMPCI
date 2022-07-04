@@ -1,0 +1,22 @@
+Bloc notas
+
+
+<i class="fal fa-project-diagram"></i>
+<i class="fal fa-file-invoice-dollar"></i>
+<i class="far fa-chart-pie"></i>
+<i class="far fa-building"></i>
+
+
+
+numProyecto = , 
+nomProyecto = , 
+prioridad = , 
+fecha = , 
+cliente= ,
+descripcion = , 
+estatus = , 
+cantidad = , 
+fRequerida = , 
+fFinalizacion = ,
+fEntrega = , 
+numCotizacion = 

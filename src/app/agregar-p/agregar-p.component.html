@@ -1,1 +1,28 @@
-<p>agregar-p works!</p>
+<h2 class="sT">Agregar proyecto</h2>
+<form (ngSubmit)="onSubmit()" #formProyecto="ngForm">
+    <p>
+
+        <field>
+            <input matInput name="numProyect" [(ngModel)]="proyectoModel.numProyect
+                type="text"
+                placeholder="Numero de proyecto">
+        </field>
+    </p>
+    <p>
+        <field>
+            <input matInput name="nomProyecto" [(ngModel)]="proyectoModel.nomProyecto"
+                type="text"
+                placeholder="Nombre del proyecto">
+        </field>
+    </p>
+    <p>
+        <field>
+            <input matInput name="edad" [(ngModel)]="mascotaModel.edad"
+                type="text"
+                placeholder="Edad">
+        </field>
+    </p>
+    <p>
+        <button type="submit" mat-flat-button color="accent">Guardar</button>
+    </p>
+</form>
