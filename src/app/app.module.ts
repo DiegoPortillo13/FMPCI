@@ -11,6 +11,9 @@ import { CotizacionesComponent } from './cotizaciones/cotizaciones.component';
 import { StaticsComponent } from './statics/statics.component';
 import { PagesComponent } from './pages/pages.component';
 import { TablaComponent } from './tabla/tabla.component';
+import { AgregarPComponent } from './agregar-p/agregar-p.component';
+import { EliminarPComponent } from './eliminar-p/eliminar-p.component';
+import { EditarPComponent } from './editar-p/editar-p.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { TablaComponent } from './tabla/tabla.component';
     CotizacionesComponent,
     StaticsComponent,
     PagesComponent,
-    TablaComponent
+    TablaComponent,
+    AgregarPComponent,
+    EliminarPComponent,
+    EditarPComponent
   ],
   imports: [
     BrowserModule,
